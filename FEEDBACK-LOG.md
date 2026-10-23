@@ -73,3 +73,7 @@ everything that is actually contributable gets shared.
   VCAND audit: Base.h:143 increments unconditionally; device save-path death
   eliminates to the generated-bindings layer absent from the source drop):
   https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/40
+- 2026-10-23 — Attribution-strengthening comment on ng643's PR #120 (dmem1
+  crash surface; behaviour graded supported-by-own-evidence in our DMEM1
+  grade; five items to move the panic mechanism from claimed to shown):
+  https://github.com/ZigZagBoi1/PS5-14.10-Research/pull/120
