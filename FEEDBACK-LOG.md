@@ -32,8 +32,8 @@ everything that is actually contributable gets shared.
   https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/22
 - 2026-10-23 — AIO docs-lag correction (the 662-670 sweep ran 2026-10-22; family
   live/functional), filed upstream as companion to #118:
-  https://github.com/ZigZagBoi1/PS5-14.10-Research/issues/120
+  https://github.com/ZigZagBoi1/PS5-14.10-Research/issues/122
 - 2026-10-23 — SCM_RIGHTS drop-leak extracted as a standalone finding note:
-  https://github.com/ZigZagBoi1/PS5-14.10-Research/issues/121
+  https://github.com/ZigZagBoi1/PS5-14.10-Research/issues/123
 - 2026-10-23 — SHORTLIST-002.md published in this repo (D3 second layer,
   WRAPPED column, label intact).
