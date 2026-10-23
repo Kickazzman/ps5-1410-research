@@ -77,3 +77,7 @@ everything that is actually contributable gets shared.
   crash surface; behaviour graded supported-by-own-evidence in our DMEM1
   grade; five items to move the panic mechanism from claimed to shown):
   https://github.com/ZigZagBoi1/PS5-14.10-Research/pull/120
+- 2026-10-23 — C-18/C-19 filed (source findings with desktop reproduction,
+  device occurrence unproven, labeled as such): BMP RLE absolute-mode OOB
+  read + Yarr {0}-elision dangling forward reference from the 61-file
+  diff grading: https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41
