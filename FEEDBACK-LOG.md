@@ -69,3 +69,7 @@ everything that is actually contributable gets shared.
   (results/phase17_new_vectors/295a_jail_inventory_20261022_111637.txt, PR #85),
   falsifying the sweep's "no 79-node listing" claim. NOT posted; the sweep doc
   carries a dated correction footnote.
+- 2026-10-23 — fa-v568 save()-model correction + bindings-gap note (from the
+  VCAND audit: Base.h:143 increments unconditionally; device save-path death
+  eliminates to the generated-bindings layer absent from the source drop):
+  https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/40
