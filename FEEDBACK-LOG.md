@@ -37,3 +37,35 @@ everything that is actually contributable gets shared.
   https://github.com/ZigZagBoi1/PS5-14.10-Research/issues/123
 - 2026-10-23 — SHORTLIST-002.md published in this repo (D3 second layer,
   WRAPPED column, label intact).
+- 2026-10-23 — BATCH 2: the 30 sweep contributables were independently
+  re-verified against fresh clones at the pinned HEADs (pesto eb68f95, Zig
+  1b304052), with git-history + issues/PRs searches behind every absence claim.
+  Result: 25 VERIFIED + 4 VERIFIED-SCOPED posted; 1 FAILED (Z10) not posted.
+  Pesto (pastawithpesto/PS5-14.10-Jailbreak-Research):
+  P1 unitsPerEm flip -> #23 (VERIFIED); P2 loca OOB both-ways -> #24 (VERIFIED);
+  P3 CSSFontFace three stories -> #25 (VERIFIED);
+  P4 Canvas logs not committed -> #26 (VERIFIED-SCOPED);
+  P5 state-buffer reclaim crashes -> #27 (VERIFIED);
+  P6 OOB leak promotion scope -> #28 (VERIFIED-SCOPED);
+  P7 tee() mechanism refuted -> #29 (VERIFIED); P8 BYOB listed available -> #30
+  (VERIFIED); P9 README heap paragraph -> #31 (VERIFIED);
+  P10 memory ceiling x3 -> #32 (VERIFIED); P11 dispatch stride -> #33 (VERIFIED);
+  P12 p149g dead/alive -> #34 (VERIFIED); P13 RESEARCH_MAP stale -> #35
+  (VERIFIED); P14 UMTX Tier-1 -> #36 (VERIFIED);
+  P15 browser thr_create claim -> #37 (VERIFIED);
+  P16 re-entrancy audit scope -> #38 (VERIFIED-SCOPED);
+  P17 golden primitive hygiene -> #39 (VERIFIED).
+  Zig (ZigZagBoi1/PS5-14.10-Research):
+  Z1 threading record -> #124 (VERIFIED); Z2 progress audit 274-series -> #125
+  (VERIFIED); Z3 58093 blockers -> #126 (VERIFIED-SCOPED);
+  Z4 r230171 premise -> #127 (VERIFIED); Z5 reference-doc self-contradictions
+  -> #128 (VERIFIED); Z6 corpus accounting/logs -> #129 (VERIFIED);
+  Z7 TODO PMU chain -> #130 (VERIFIED); Z8 status-hygiene cluster -> #131
+  (VERIFIED); Z9 thread budget -> #132 (VERIFIED);
+  Z11 lethal trio + XOM scope -> #133 (VERIFIED);
+  Z12 unmeasured remainder -> #134 (VERIFIED);
+  Z13 status-line/aggregate hygiene -> #135 (VERIFIED).
+  Z10 (/dev counts) FAILED re-verification — a 79-entry listing DOES exist
+  (results/phase17_new_vectors/295a_jail_inventory_20261022_111637.txt, PR #85),
+  falsifying the sweep's "no 79-node listing" claim. NOT posted; the sweep doc
+  carries a dated correction footnote.
