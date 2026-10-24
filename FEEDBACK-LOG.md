@@ -93,3 +93,13 @@ everything that is actually contributable gets shared.
   (PIXSUM 9a5d6681, alpha 24, survived) — claim fenced to rendered
   output with a zero-filled landing; live-heap return not shown:
   https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41
+- 2026-10-23 — Issue #43 (new): completing the WK-1200 diff — C-20 XML
+  re-entrancy DEVICE-CONFIRMED on 11.40 (double-parented node witnessed
+  by the document's own script, 3/3, control sane; teardown escalation
+  not claimed) and the C-21 CSS member DEVICE-CONFIRMED (nesting
+  enabled in the Guide build — precondition settled on device; 10k-deep
+  stylesheet kills the web process every load), with the rest of the
+  cluster dispositioned in the same post: EventTarget SOURCE-ONLY,
+  SerializedScriptValue FENCED, JSCell NOT-A-BUG (60,037-check battery),
+  TransformStream FENCED:
+  https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/43
