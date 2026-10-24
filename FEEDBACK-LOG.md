@@ -86,3 +86,10 @@ everything that is actually contributable gets shared.
   step, control clean); C-18 not exhibited via the <img> path (empty
   frame, survived) — device status remains unproven:
   https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41
+- 2026-10-23 — C-18 v2 update on Issue #41: v1's empty frame explained
+  (missing RLE terminator -> frame never committed; v1 = no test
+  performed, replicated once more by accident); trigger v2 confirms
+  the OOB read ON DEVICE via the pre-registered silent-branch checksum
+  (PIXSUM 9a5d6681, alpha 24, survived) — claim fenced to rendered
+  output with a zero-filled landing; live-heap return not shown:
+  https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41
