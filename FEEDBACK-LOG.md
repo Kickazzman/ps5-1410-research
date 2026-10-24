@@ -7,6 +7,8 @@ against primary sources, and only then moves a document.
 
 | Date | Source (repo / handle) | Item | Claim | Audit verdict | Action taken |
 |---|---|---|---|---|---|
+| 2026-10-24 | pesto / #41 | sizeof thread: libpas OFF, State-inline, 768B context, 272B refuted, FontVariantAlternates 72B | VERIFIED (libpas OFF both drops; Vector<State,1> :436; 272B fails inventory lower bound; FVA 4 strings, 72B aligned); 768B CONVERGENT (measured slot vs computed class, not independent proof) | Reply posted: https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41#issuecomment-6384795096; IsoSpace inference struck from our survey-v2 record (dated footnote) |
+| 2026-10-24 | pesto / #43 | Canvas-chain note: V701 10/10 UAF, same-type alias idx 4, cross-type 0/10; sizing question | Device data filed as pesto's bench (UNVERIFIED by us); sizing mooted by context-not-State correction | Reply posted: https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/43#issuecomment-6384795279 |
 | — | — | — | (awaiting first feedback) | — | — |
 
 Rules:
