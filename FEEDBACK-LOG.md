@@ -81,3 +81,8 @@ everything that is actually contributable gets shared.
   device occurrence unproven, labeled as such): BMP RLE absolute-mode OOB
   read + Yarr {0}-elision dangling forward reference from the 61-file
   diff grading: https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41
+- 2026-10-23 — Device update on Issue #41: C-19 CONFIRMED on a retail
+  11.40 (2/2 deterministic WebProcess kills at the predicted compile
+  step, control clean); C-18 not exhibited via the <img> path (empty
+  frame, survived) — device status remains unproven:
+  https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41
