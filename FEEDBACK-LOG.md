@@ -103,3 +103,18 @@ everything that is actually contributable gets shared.
   SerializedScriptValue FENCED, JSCell NOT-A-BUG (60,037-check battery),
   TransformStream FENCED:
   https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/43
+- 2026-10-23 — Community columns received on #41/#43 from cobrajet302gt
+  and answered: (a) C-19 CLEAN on retail 14.10 (7/7 loads, same Guide
+  surface) — the fixed column the source hunk predicts; (b) C-18 on
+  14.10 corrected by its author to UNTESTED (pre-v2 shapes = no test
+  performed; 1400 indexes runs relative to startX, so absolute-column
+  triggers steer nothing); our trigger-v2 blob (122 B, md5 ef8b8ac6...)
+  supplied as hex in our reply for their byte-exact run, with the
+  committed-control scoring gate; (c) source-level closure posted for
+  both #41 findings (the exact 1400 fix hunks); (d) #43: C-20 fix hunk
+  verified line-exact and C-20 + C-21 CSS filed FIXED on 14.10 (C-20
+  parse stops 3/3; CSS nesting enabled but capped, DONE arrives 2/2);
+  the C-21 gate mechanism sharpened (rule-list counter at the head of
+  consumeStyleRule; m_styleRuleNestingLevel boolean-only in both
+  generations); m_isAlwaysNestedContext recorded as an UNVERIFIED
+  bypass lead. Pesto acknowledged the C-19 confirmation on #41.
