@@ -120,3 +120,32 @@ everything that is actually contributable gets shared.
   consumeStyleRule; m_styleRuleNestingLevel boolean-only in both
   generations); m_isAlwaysNestedContext recorded as an UNVERIFIED
   bypass lead. Pesto acknowledged the C-19 confirmation on #41.
+- 2026-10-27 — Closures triaged live: Zig #118 and #122-#135
+  closed, closing comments read for the first time — the same
+  incorporation note on all 15 (FINDINGS.md Findings 2/81/1
+  corrected and 83/84 added, CLAUDE.md thr_new dead end fixed,
+  AIO_RANGE never-called assertion corrected); no dispute and
+  no question back. Pesto #21-#40 closed with zero comments,
+  and #41/#43 closed by the repo owner 2026-10-27; #43 has no
+  comments since the 2026-10-24 reply. #131 also carries a
+  2026-10-25 comment from cobrajet302gt with a 99-assertion
+  audit of dated docs (19 supported, 28 contradicted, 22 stale,
+  25 no-results-exist) — filed as his bench's data, no ask
+  back.
+- 2026-10-27 — C-18's 14.10 column closed as FIXED on Issue
+  #41: cobrajet302gt's 2026-10-26 v2 run on retail 14.10
+  (RLE24 committed, byte-identical across two loads) asked
+  for the harness pixel rows for the fixed and 1200-zero
+  frames. Both frames were re-derived from the drop reader
+  code and reproduce the registered checksums exactly
+  (fixed 4d1a0ea2, zero-overrun 9a5d6681); his dump equals
+  the fixed frame at every written pixel and differs from
+  the 1200 frame at px4 and at the tail. Reply posted as
+  Kickazzman comment 6459751784:
+  https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research/issues/41#issuecomment-6459751784
+- 2026-10-27 — Public repo additions pushed (commit 202f7dc):
+  READ-MEASUREMENTS-11.40.md (verified 11.40 read measurements
+  only — worker clock, C-20 splice map, ruler, survey, census,
+  mechanism, differential, C/D 32-byte shift) and
+  CONTRIBUTIONS.md (37 issues + PR #120 comment, no personal
+  information).

@@ -3,9 +3,8 @@
 All contributions listed here were posted under the handle Kickazzman.
 No personal information is included on this page: no real names,
 emails, locations, console identifiers, network details, or private
-project internals. Statuses are as of the last verified check on
-2026-10-23/24; live status has not been re-checked, because the
-usual push route is currently unavailable.
+project internals. Statuses were last verified live on
+2026-10-27; see the closing notes below.
 
 Total: 37 issues, plus 1 pull-request comment.
 
@@ -66,8 +65,11 @@ was not posted.
 - **ZigZagBoi1/PS5-14.10-Research #135** — Status-line/aggregate hygiene: 45258 status line vs its own 54a result; ALL_PROBES/ALL_RESULTS frozen 2026-10-18; TODO Priority 0; PANIC_ORACLE's missing watchdog log
 
 Zig issues #118 and #122–#135 were observed closed in a sweep on
-2026-10-23; the contents of their closing comments were not
-read at that time.
+2026-10-23; their closing comments were read on 2026-10-27 — the
+same incorporation note on all 15 (FINDINGS.md Findings 2/81/1
+corrected and 83/84 added, CLAUDE.md thr_new dead end fixed,
+AIO_RANGE never-called assertion corrected). No dispute, no
+further action on those issues.
 
 ## Later contributions — 2026-10-23
 
@@ -77,12 +79,16 @@ read at that time.
   bindings layer is absent from the source drop).
 - **pastawithpesto/PS5-14.10-Jailbreak-Research #41** — C-18 /
   C-19 contribution, with device updates: C-19 device-confirmed,
-  C-18 v2 device-confirmed silent branch. Open at last check.
+  C-18 v2 device-confirmed silent branch. Closed 2026-10-27 by
+  the repo owner; final reply 2026-10-27 (comment 6459751784)
+  machine-matches the 14.10 v2 dump to the fixed harness frame,
+  closing C-18's 14.10 column as fixed.
 - **pastawithpesto/PS5-14.10-Jailbreak-Research #43** — C-20
   device-confirmed plus the C-21 cluster, dispositioned with
   fences intact (CSS member device-confirmed; EventTarget
   source-only; SerializedScriptValue fenced; JSCell not-a-bug;
-  TransformStream fenced). Open at last check.
+  TransformStream fenced). Closed 2026-10-27 by the repo owner;
+  no comments since the 2026-10-24 reply.
 - **Comment on pastawithpesto PR #120** — dmem1 grade / comment.
 
 ## In this repo
@@ -96,8 +102,7 @@ read at that time.
 - `READ-MEASUREMENTS-11.40.md` — read measurements on 11.40
   (worker clock, C-20 splice map, ruler, survey, census,
   mechanism, differential, and the C/D 32-byte shift).
-  STAGED, pending push with this page — not yet live at the
-  time this file was written.
+  Live in this repo since the 2026-10-27 push (commit 202f7dc).
 
 ## Deliberately not on this page
 
