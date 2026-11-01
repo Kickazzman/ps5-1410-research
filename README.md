@@ -9,6 +9,7 @@
 | `README.md` | This file — provenance, methods, and the scrub statement. |
 | `STAGE1-RECONCILIATION.md` | A community-facing note reconciling our program's records with the public Stage 1 identification of CVE-2026-43720, resolving the 720/768 size discrepancy, and offering a boundary-persistence finding and a harness-mortality lesson. |
 | `NUMBERS-AUDIT-2026-10-23.md` | A full audit of every load-bearing number in the program's own documents, re-derived against primary sources: 149 claims — 116 verified, 23 corrected (14 distinct errors), 10 unverifiable. Included as the worked example of the correction discipline described below. |
+| `OFFSET-AUDIT-14.10.md` | Neighbor audit of the 14.10 offset table (2026-10-22): the 14.10 table byte-identical to 13.60 and 14.00, zero 14.10-derived values, with a dated correction appended from the numbers audit. |
 
 ## Provenance
 
